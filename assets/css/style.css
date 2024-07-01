@@ -158,9 +158,6 @@
   box-shadow: 0px -9px 16px 0px rgb(158 158 158 / 40%);
 }
 
-.spl-bottom-cta h6 img {
-  margin-top: -6px;
-}
 
 @media screen and (max-width: 576px) {
   .spl-bottom-cta {
