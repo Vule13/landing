@@ -4000,12 +4000,13 @@ h6,
   cursor: pointer;
   transform: translateY(-5px);
 }
+
 .content-list-features .feature-box {
   background: #fff;
   box-shadow: 0 0 70px rgb(0 0 0 / 10%);
   border-radius: 20px;
   padding: 35px 35px;
-  transition: box-shadow 0.3s, transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: box-shadow 0.3s, transform 0.3s cubic-bezier(0.51, 0.68, 0.53, 0.65);
 }
 
 .feature-content {
@@ -5028,4 +5029,9 @@ span.new {
   &:hover {
     opacity: 0.6;
   }
+}
+
+.container-features {
+  z-index: 1;
+  position: relative;
 }
